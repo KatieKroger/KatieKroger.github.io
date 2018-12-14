@@ -52,34 +52,35 @@ body {
   width: 1020px;
   margin: auto;
 }
+/*Logo*/
+
+.logoimg {
+  background: #839FA6;
+  padding-top: 25px;
+  padding-left: 475px;
+  padding-right: 475px;
+  display: flex;
+  align-items: center;
+}
 
 /*Header*/
 
 header {
 	background: #839FA6;
-	padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 	display: flex;
 	align-items: center;
 }
 
-nav ul {
-	display: flex;
-}
-
-#nav ul li {
-	padding-left: 25px;
+nav ul li a {
+  display: block;
+  width: 340px;
+  text-align: center;
 }
 
 #nav ul {
 	justify-content: flex-end;
-}
-
-.headerflex {
-	flex: 1;
-}
-
-div.headerflex {
-	text-align: center;
 }
 
 /*Index Page*/
@@ -151,6 +152,26 @@ div.headerflex {
 
 .internalphoto {
 	padding: 25px;
+}
+
+/*Contact Page*/
+
+.contact {
+  padding: 25px;
+}
+
+.contacttext {
+  padding-left: 25px;
+}
+
+.email {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.email a {
+  color: #000;
 }
 
 /*Footer*/
