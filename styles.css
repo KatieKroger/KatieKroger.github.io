@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/****************** End CSS RESET *****************/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+/*Header*/
+
+header {
+	background: #839FA6;
+	padding: 25px;
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+#nav ul li {
+	padding-left: 25px;
+}
+
+#nav ul {
+	justify-content: flex-end;
+}
+
+.headerflex {
+	flex: 1;
+}
+
+div.headerflex {
+	text-align: center;
+}
+
+/*Index Page*/
+
+.featured {
+	position: relative;
+	text-align: center;
+	height: 600px;
+}
+
+.featuredtype {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.75);
+	padding: 25px;
+	text-align: left;
+  width: 350px;
+  line-height: 30px;
+}
+
+.featuredtype a {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.featuredtype a:hover {
+	color: #fff;
+}
+
+/*Portfolio Page*/
+
+.portfolio {
+	display: flex;
+}
+
+.text {
+	padding: 25px;
+	width: 50%;
+	line-height: 26px;
+}
+
+.text a {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.text a:hover {
+	color: #839FA6;
+}
+
+/*Internal Pages specific to each project set*/
+
+.internal {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.internaltext {
+	width: 50%;
+	line-height: 26px;
+	min-height: 370px;
+	padding: 25px;
+}
+
+.internalphoto {
+	padding: 25px;
+}
+
+/*Footer*/
+
+footer {
+	background: #839FA6;
+	padding: 25px 0;
+	text-align: center;
+}
+
+/*Typography*/
+
+h1 {
+	font-size: 24px;
+  font-weight: bold;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+header p {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 1em;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #000;
+}
